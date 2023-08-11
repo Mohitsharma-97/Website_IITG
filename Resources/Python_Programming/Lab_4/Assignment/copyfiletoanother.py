@@ -1,0 +1,6 @@
+f = open('test.txt','r')
+g = open('test1.txt','w')
+txt=f.read()
+g.write(txt)
+f.close()
+g.close()
